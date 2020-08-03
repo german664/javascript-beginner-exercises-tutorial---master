@@ -182,7 +182,7 @@
         {
             "slug": "14-Your-first-switch",
             "title": "14-Your-first-switch",
-            "done": false,
+            "done": true,
             "path": "exercises/14-Your-first-switch",
             "translations": [
                 "es",
@@ -303,7 +303,7 @@
         {
             "slug": "25-Javascript-Objects",
             "title": "25-Javascript-Objects",
-            "done": false,
+            "done": true,
             "path": "exercises/25-Javascript-Objects",
             "translations": [
                 "es",

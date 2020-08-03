@@ -1,3 +1,6 @@
+let colorname = prompt('What color do you want?');
+let isAvailable = getColor(colorname);
+
 function getColor(selection)
 {
 	switch(selection){
@@ -5,16 +8,20 @@ function getColor(selection)
         case 'red':
             return true;
         break;
+        case 'green':
+            return true;
+        break;
+        case 'blue':
+            return true;
+        break;
 	    default:
-	    	return false;  //returns false because the user picked an unavailable color
-	    break;               
+	    	return false;  //returns false because the user picked an unavailable color            
 	}
 }
 
-var colorname = window.prompt('What color do you want?');
-var isAvailable = getColor(colorname);
 
-if(isAvailable)
+if(isAvailable === true)
 	console.log('Good news! That color is available');
 else 
 	console.log('We are sorry, that color is not available');
+
